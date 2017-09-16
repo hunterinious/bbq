@@ -20,4 +20,11 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  app:
+    name: "Barbecue"
+    company: "Good programmer"
+    errors:
+      one: "error"
+      few: "errors"
+      many: "errors"
+      other: "errors"

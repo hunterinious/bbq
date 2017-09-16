@@ -42,6 +42,12 @@ ru:
     name: 'Шашлыки'
     company: 'Хороший программист'
 
+  errors:
+    one: "ошибка"
+    few: "ошибки"
+    many: "ошибок"
+    other: "ошибки"
+
   comments:
     comment:
       destroy_confirm: 'Вы уверены, что хотите удалить этот комменатрий?'
