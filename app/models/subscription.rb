@@ -18,7 +18,7 @@ class Subscription < ActiveRecord::Base
   validates :user_email, uniqueness: {scope: :event_id}, unless: 'user.present?'
 
   validate :user_is_author
-  validate :email_of_user_present
+  validate :email_of_user_present, unless: 'user.present?'
 
   # переопределяем метод, если есть юзер, выдаем его имя,
   # если нет -- дергаем исходный переопределенный метод
