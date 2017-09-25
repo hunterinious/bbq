@@ -20,11 +20,34 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+# Перевод моделей
+  activerecord:
+    # Перевод названия моделей
+    models:
+      user: 'User'
+      event: 'Event'
+      events: 'Events'
+
+    attributes:
+      event:
+        create_event: 'Create event'
+        new_event: 'New event'
   app:
     name: "Barbecue"
     company: "Good programmer"
+
+    save: 'Save'
+    back: 'Back'
+    or: 'or'
+
     errors:
       one: "error"
       few: "errors"
       many: "errors"
       other: "errors"
+
+    title:
+      sign_in: 'Sing in'
+      sign_up: 'Sing up'
+      profile: 'Profile'
+      sign_out: 'Sing out'
