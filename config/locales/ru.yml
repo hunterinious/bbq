@@ -83,6 +83,22 @@ ru:
         destroy_confirm: 'Вы уверены, что хотите удалить эту подписку?'
         email_of_user_exist: 'Нельзя подписать зарегестрированого пользователя'
 
+    event_mailer:
+      comment:
+        title: 'Новый комментарий'
+        author: 'Автор'
+        event: 'Событие'
+        datetime: 'Состоится'
+        owner: 'Организатор'
+      subscription:
+        title: 'Новая подписка'
+        name: 'Имя'
+        email: 'Email'
+        author: 'Автор'
+        event: 'Событие'
+        datetime: 'Состоится'
+        owner: 'Организатор'
+
     title:
       sign_in: 'Войти'
       sign_up: 'Зарегестрироватся'

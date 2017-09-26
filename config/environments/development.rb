@@ -42,4 +42,17 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
 
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+  # отправка почты по протоколу SMTP
+  config.action_mailer.delivery_method = :smtp
+
+  # Настройки для работы через GMail аккаунт
+  config.action_mailer.smtp_settings = {
+      address: 'smtp.gmail.com',
+      port: '587',
+      user_name: 'testprograms777@gmail.com', # не используйте для тестов свои реальные ящики
+      password: '', # не храните здесь пароль!
+      authentication: 'plain',
+      enable_starttls_auto: true
+  }
 end
