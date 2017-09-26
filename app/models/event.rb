@@ -19,4 +19,8 @@ class Event < ActiveRecord::Base
 
   validates :address, presence: true
   validates :datetime, presence: true
+
+  def visitors
+    (subscribers + [user]).uniq
+  end
 end
