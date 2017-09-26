@@ -5,6 +5,7 @@ ru:
     models:
       user: 'Пользователь'
       event: 'Событие'
+      photo: 'Фотография'
       events: 'События'
 
     # Перевод названий аттрибутов моделей
@@ -22,6 +23,14 @@ ru:
         description: 'Описание'
         create_event: 'Создать событие'
         new_event: 'Новое событие'
+      comment:
+        user_name: 'Ваше имя'
+        body: 'Комментарий'
+      subscription:
+        user_name: 'Ваше имя'
+        user_email: 'Ваш email'
+      photo:
+        photo: 'Фотография'
 
   # Перевод сообщений, которые отправляет контроллер
   controllers:
