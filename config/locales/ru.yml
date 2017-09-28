@@ -23,6 +23,7 @@ ru:
         description: 'Описание'
         create_event: 'Создать событие'
         new_event: 'Новое событие'
+        pincode: 'Пинкод доступа'
       comment:
         user_name: 'Ваше имя'
         body: 'Комментарий'
@@ -39,6 +40,7 @@ ru:
       updated: 'Вы обновили мероприятие'
       destroyed: 'Вы удалили мероприятие :('
       delete: 'Вы точно хотите удалить мероприятие'
+      wrong_pincode: 'Неверный пинкод!'
     users:
       updated: 'Вы обновили свой профиль'
     comments:
