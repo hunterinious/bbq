@@ -27,7 +27,8 @@
         </div>
 
         <div class="col-md-6">
-          <%= content_tag 'div', '', id: 'map', data: { address: @event.address }, class: 'event-map' %>
+          <%= content_tag(:iframe, '', src: "https://www.google.com/maps/embed/v1/place?key=AIzaSyCcKOipA1yJxbjfT4acjLGweoVDlVyUkpg&q=#{@event.address}",
+                          width: 560, height: 315, frameborder: 0) %>
         </div>
 
       </div>
